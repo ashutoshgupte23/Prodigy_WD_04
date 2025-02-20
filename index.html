@@ -3,192 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio-website</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
-    <div class = "main-container">
-        <div class="inner-container">
-
-            <nav class = "navbar">
-              <a id="downloadLink" href="#" class="download-btn"><img src="images/icons8-resume-48.png" alt="" srcset="" height="30" width="30"></a>
-<script src="script.js"></script>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Introduce yourself here. Share your background, skills, and interests.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Showcase your projects here with brief descriptions and links.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Provide your contact information or a contact form here.</p>
+    </section>
 
-                <ul class="navlist">
-                    <li>
-                       <a href="https://www.linkedin.com/in/ashutosh-gupte-988aab351/"><img src="images/linkedin (1).png" alt="" height = "25vh" width = "25vw"></a> 
-                        
-                       </li> 
-                        <li>
-                       <a href="https://leetcode.com"><img src="images/download.png" alt=""  height = "25vh" width = "25vw"></a>
-                       
-                       </li> 
-                   <li>
-                    <a href="#contact" class = "link">Contact</a>
-                   </li> 
-                   <li>
-                    <a href="#skills-section" class = "link">Skills</a>
-                   </li>
-                   <li>
-                    <a href="#project" class = "link">Projects</a>
-                   </li>
-                                     
-
-                 
-                </ul>
-            </nav>
-             <section class = "hero-section">
-                <div class = "intro">
-                 <h3>Hello Wordl,i am</h3>
-                <h1>Ashutosh Gupte</h1>
-                <h3>I'am a <span>Frontend-Developer</span>
-                </h3>
-                
-               </div>
-              <div class = "waves">
-             <img src="images/gradient_waves-removebg-preview.png" alt="" srcset="">
-              </div>
-             </section>
-        
-            </div> 
-           
-            <div id = "skills-section" class = "skills">
-                     
-           <div class = "skills1">
-            <div class = "skills_img">
- <img src="https://png.pngtree.com/png-vector/20220513/ourmid/pngtree-illustration-of-major-programming-language-vector-icon-for-c-color-version-vector-png-image_36463914.png"  alt="" height="55vh" width = "65vw">    
-            </div>
-            <div class = "skills_img">
- <img src="images/js.png"  alt="" height="55vh" width = "65vw">    
-            </div>
-            <div class = "skills_img">
- <img src="images/css-3.png"  alt="" height="55vh" width = "65vw">    
-            </div>
-            <div class = "skills_img">
- <img src="images/html.png"  alt="" height="55vh" width = "65vw">    
-            </div>
-
-           </div>
-
-          <div class  ="skill">
-
-            <h1> My skill</h1>
-            <li><h3>Java</h3>
-            <span class = "bar"><span class = "java"></span></span>
-        </li>
-            <li><h3>Javascript</h3>
-            <span class = "bar"><span class = "javascript"></span></span>
-        </li>
-            <li><h3>Css</h3>
-            <span class = "bar"><span class = "css"></span></span>
-        </li>
-            <li><h3>Html</h3>
-            <span class = "bar"><span class = "html"></span></span>
-        </li>
-
-          </div>
-        
-        
-        </div>
-        <section id = "project" class="recent-projects">
-            <h1 class="section-title">Recent Projects</h1>
-            <div class="card-container">
-              <!-- Card 1 -->
-              <div class="card">
-                <img src="https://inc42.com/wp-content/uploads/2023/02/zomato-ft-760x570.png" alt="zomato website">
-                <div class="card-content"> <h3>zomato website Website</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nostrum.</p></div>
-               
-                <a href="#" class="visit-btn">Visit Project</a>
-              </div>
-              <!-- Card 2 -->
-              <div class="card">
-                <img src="https://img.freepik.com/premium-psd/stop-watch_953224-331.jpg" alt="stop watch">
-                <div class="card-content"> <h3>stop watch</h3>
-                    <p>Fast to use...</p></div>
-               
-               
-                <a href="#" class="visit-btn">Visit Project</a>
-              </div>
-              <!-- Card 3 -->
-              <div class="card">
-                <img src="https://www.gamesver.com/wp-content/uploads/2022/02/tic-tac-toe-board-game-concept.jpg" alt="tic-tac-toe">
-                <div class="card-content"> <h3>tic-tac-toe</h3>
-                <p>FUN TO PLAYY!!</p></div>
-               
-               
-                <a href="#" class="visit-btn">Visit Project</a>
-              </div>
-             
-              
-            </div>
-          </section>
-
-          <section class="education-section">
-            <h2 class="section-title">Education</h2>
-            <div class="education-timeline">
-                <div class="education-item">
-                    <span class="timeline-circle"></span>
-                    <div class="education-content">
-                        <p class="education-duration">2022-2026</p>
-                        <h3 class="education-title">Bachelor's degree</h3>
-                        <p class="education-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </p>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <span class="timeline-circle"></span>
-                    <div class="education-content">
-                        <p class="education-duration">2019-2021</p>
-                        <h3 class="education-title">Senior Secondary</h3>
-                        <p class="education-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </p>
-                    </div>
-                </div>
-                <div class="education-item">
-                    <span class="timeline-circle"></span>
-                    <div class="education-content">
-                        <p class="education-duration">2018-2019</p>
-                        <h3 class="education-title">Secondary Education</h3>
-                        <p class="education-description">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-         
-         <section id = "contact" class="contact-section">
-          <div class="contact-form-container">
-            <h2 class="contact-heading">GET IN TOUCH</h2>
-            <h1 class="contact-title">Contact.</h1>
-            <form action="mailto:xyz1@gmail.com" method="POST" enctype="text/plain">
-              <div class="form-group">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="What's your good name?" required>
-              </div>
-              <div class="form-group">
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" placeholder="What's your web address?" required>
-              </div>
-              <div class="form-group">
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" placeholder="What you want to say?" required></textarea>
-              </div>
-              <button type="submit" class="send-btn">Send</button>
-            </form>
-          </div>
-          <div class ="video">
-            <video src="videos/fotor-video_enhancer-preview-20250107225330.mp4"  autoplay loop muted width="450"></video>
-            </div>
-        </section>
-       
-     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>
+           
+           
+         
